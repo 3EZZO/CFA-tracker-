@@ -1,0 +1,129 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 20px;
+    width: 0; /* Dynamically updated by JavaScript */
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CFA Study Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>CFA Level 1 Study Tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="#progress-tracker">Progress Tracker</a></li>
+                <li><a href="#daily-schedule">Daily Schedule</a></li>
+                <li><a href="#weekly-review">Weekly Review</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#health-wellness">Health & Wellness</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="progress-tracker">
+            <h2>Progress Tracker</h2>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </section>
+
+        <section id="daily-schedule">
+            <h2>Daily Schedule</h2>
+            <!-- Content for each day's schedule will go here -->
+        </section>
+
+        <section id="weekly-review">
+            <h2>Weekly Review</h2>
+            <!-- Content for weekly review will go here -->
+        </section>
+
+        <section id="resources">
+            <h2>Resources</h2>
+            <!-- Links to study materials, apps, forums -->
+        </section>
+
+        <section id="health-wellness">
+            <h2>Health & Wellness</h2>
+            <!-- Tips and advice for maintaining health -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 CFA Study Tracker. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
